@@ -131,4 +131,5 @@ export class StartApplicationPage extends BasePage {
     await this.clickNextButton();
   }
 
+
 }
