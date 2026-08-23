@@ -4,9 +4,7 @@ import { paymentPlanPage, page, startApplicationPage } from "../../globalPagesSe
 import { productInfo } from "../../utilities/qa-data-reader.js";
 
 
-Given('user completes start application step', async function () {
-    await startApplicationPage.completeStartApplicationStep();
-});
+
 
 Given('the user is on the Payment Plan page', async function () {
     await expect(startApplicationPage.paymentPlanStepCircle).toHaveCSS('background-color', 'rgb(1, 201, 255)'); // blue
