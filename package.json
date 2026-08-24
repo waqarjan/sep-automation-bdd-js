@@ -8,8 +8,10 @@
     "test:tag:dryrun": "npx cucumber-js --tags @sep11 --dry-run",
     "test:dryrun": "npx cucumber-js --dry-run",
     "test:smoke": "npx cucumber-js --tags @smoke",
-    "Mac-open:report": "open reports/cucumber-report.html",
-    "Windows-open:report": "start reports/cucumber-report.html"
+    "report": "node utilities/generateReport.js",
+    "posttest": "npm run report",
+    "Mac-open:report": "open reports/cucumber-html-reporter.html",
+    "Windows-open:report": "start reports/cucumber-html-reporter.html"
   },
   "keywords": [],
   "author": "",
