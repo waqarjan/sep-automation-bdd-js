@@ -42,7 +42,7 @@ export class ReviewPaymentPage extends BasePage {
 
     this.confirmationTitle = page.locator("//p[@class='confirmation-title']");
     this.programeName = page.locator("//span[@class='purplish' and normalize-space()='Test Automation with Selenium']");
-    this.emailAddress = page.locator("//p/u[normalize-space()='john.doe@cydeo.com.']");
+    this.emailAddress = page.locator("//p/u");
     this.contactInformation = page.locator("//span[@class='support-email' and normalize-space()='support@cydeo.com']");
   }
 

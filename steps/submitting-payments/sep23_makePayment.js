@@ -25,10 +25,10 @@ When('the user enter valid card information', async function () {
 When('the user check Terms and conditions checkbox', async function () {
     await reviewPaymentPage.clickTermsAndConditionsCheckbox();
 });
-When('the user clicks on Pay', async function () {
+When('the user clicks on Pay button', async function () {
     await reviewPaymentPage.clickPayButton();
 });
-Then('user see Payments confirmation page', async function () {
+Then('user should see Payments confirmation page', async function () {
     await expect(reviewPaymentPage.confirmationTitle).toBeVisible({ timeout: 30000 });
 });
 Then('user should see program Test Automation with Selenium', async function () {
