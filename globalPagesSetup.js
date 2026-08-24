@@ -5,6 +5,8 @@ import { ReviewPaymentPage } from "./pages/ReviewPaymentPage.js";
 
 // Import OTHER PAGES CLASSES HERE IF NEEDED...
 
+//the following commented lines are documentation and not normal comments. 
+// They are used to provide type information for the page instances below.
 
 /**
  * @type {import('./pages/LeftMainPage.js').LeftMainPage}

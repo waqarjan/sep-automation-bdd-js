@@ -3,9 +3,7 @@ import { expect} from "@playwright/test";
 import { paymentPlanPage, page } from "../../globalPagesSetup.js";
 import { productInfo } from "../../utilities/qa-data-reader.js";
 
-Given('user completes payment plan page', async function () {
-    await paymentPlanPage.completePaymentPlanStep();
-});
+
 
 Then('user see Upfront text with Upfront price', async function () {
   await expect(paymentPlanPage.upfrontPaymentOption).toBeVisible();

@@ -35,8 +35,8 @@ Feature: Make a payment
     Scenario: Make Payment
         When the user enter valid card information
         And the user check Terms and conditions checkbox
-        And the user clicks on Pay
-        Then user see Payments confirmation page
+        And the user clicks on Pay button
+        Then user should see Payments confirmation page
         And user should see program Test Automation with Selenium
         And user should see correct email address is displayed
         And user should see CYDEO contact information
