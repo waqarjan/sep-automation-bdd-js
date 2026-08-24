@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cucumber-js",
-    "test:tag": "npx cucumber-js --tags @sep29-1",
+    "test:tag": "npx cucumber-js --tags @sep23-2",
     "test:tag:dryrun": "npx cucumber-js --tags @sep11 --dry-run",
     "test:dryrun": "npx cucumber-js --dry-run",
     "test:smoke": "npx cucumber-js --tags @smoke",
