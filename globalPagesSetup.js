@@ -42,7 +42,10 @@ export let page;
  * @returns {void} This function does not return any value.
  */
 export const initElements = (argPage) => {
+    // Set the global page object
     page = argPage;
+
+    // Initialize page objects
     leftMainPage = new LeftMainPage(page);
     paymentPlanPage = new PaymentPlanPage(page);
     startApplicationPage = new StartApplicationPage(page);
